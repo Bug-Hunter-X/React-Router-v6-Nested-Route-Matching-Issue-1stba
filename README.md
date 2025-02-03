@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with nested routes in React Router v6. The catch-all route (`/*`) unintentionally overrides other routes, preventing nested routes from rendering. The solution involves careful route ordering and potentially using `useLocation` to handle nested routes more effectively.
